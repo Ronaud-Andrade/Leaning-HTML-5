@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body {
+    background-color: rgba(223,252,244,0.5);
+    color: rgba(0,0,0,1);
+}
+p{
+    text-align: center;
+    text-align: justify;
+    text-indent: 50px;
+}
+/* Formatação de fotos com legenda */
+figure.foto-legenda {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    box-shadow: 2px 2px 4px black;
+    border: 4px solid white;
+}
+
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    background-color: rgba(0,0,0,0.8);
+    color: rgb(255, 255, 255);
+    p{
+        text-indent: 0%;
+    }
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
