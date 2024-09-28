@@ -1,8 +1,29 @@
 @charset "UTF-8";
 body {
-    background-color: rgba(223,252,244,0.5);
-    color: rgba(0,0,0,1);
+    background-color: #dddddd;
+    color: #000000;
 }
+
+div#interface{
+    background-color: white;
+    width: 1000px;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px 10px 10px 10px;
+    /*margin: cima direita baixo esquerda (fora do objeto)*/
+    /*padding: cima direita baixo esquerda (dentro do objeto)*/
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+}
+
+header#cabecalho{
+
+}
+
 p{
     text-align: center;
     text-align: justify;
@@ -54,7 +75,7 @@ nav#Menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 700px;
+    left: 550px;
 }
 
 /* posição: absoluta -> pode mover o bloco por todo o site
